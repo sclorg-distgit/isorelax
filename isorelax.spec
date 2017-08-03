@@ -39,7 +39,7 @@ URL:            http://iso-relax.sourceforge.net/
 Epoch:          1
 Version:        0
 # I can't use %%{cvstag} as dashes aren't allowed in Release tags
-Release:        0.21.release20050331.1%{?dist}
+Release:        0.21.release20050331.2%{?dist}
 License:        MIT and ASL 1.1
 BuildArch:      noarch
 
@@ -95,6 +95,9 @@ ant release
 %license license.txt
 
 %changelog
+* Thu Jun 22 2017 Michael Simacek <msimacek@redhat.com> - 1:0-0.21.release20050331.2
+- Mass rebuild 2017-06-22
+
 * Wed Jun 21 2017 Java Maintainers <java-maint@redhat.com> - 1:0-0.21.release20050331.1
 - Automated package import and SCL-ization
 
